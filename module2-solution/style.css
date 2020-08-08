@@ -83,14 +83,14 @@ div {
 		width: 90%;
 	}
 	
-	/*For desktop*/
+	/*desktop version*/
 	@media (min-width: 992px){
 		.column-lg-4 {
 			float: left;
 			width: 33.33%;
 		}
 	}
-	/*For tablet*/
+	/*tablet version*/
 	@media (min-width: 768px) and (max-width: 991px){
 		.colmn-md-6 {
 			float: left;
@@ -105,7 +105,7 @@ div {
 			margin-right: auto;
 		}
 	}
-	/*For mobile*/
+	/*mobile version*/
 	@media (max-width: 767px){
 		.colmn-sm-12 {
 			float: left;
