@@ -2,19 +2,19 @@
 Solution of assignment 4:
 Expected output:
 Hello Yaakov
-Good Bye John
-Good Bye Jen
-Good Bye Jason
-Hello Paul
-Hello Frank
+Good Bye Jain
+Good Bye Jerry
+Good Bye Jimmy
+Hello Pooja
+Hello Franky
 Hello Larry
-Hello Paula
-Hello Laura
+Hello Pinky
+Hello Lorry
 Good Bye Jim
 */
 
 (function() {
-    var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+    var names = ["Yaakov", "Jain", "Jerry", "Jimmy", "Pooja", "Franky", "Larry", "Pinky", "LOrry", "Jim"];
     for (var i = 0; i < names.length; i++) {
         var firstLetter = names[i].charAt(0).toLowerCase();
         if (firstLetter === 'j') {
